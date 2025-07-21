@@ -17,8 +17,8 @@ body {
 
 #header-buttons-container {
     display: flex;
-    margin-top: 50px;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -94,25 +94,29 @@ a {
     background-position: center;
     display: flex;
     align-items: center;
-    height: 541px;
-   
+    height: 422px;
 }
 
 #header-img-container {
-    width: 40%;
+    width: 46%;
     margin:0 auto; 
     color: white;
     text-align: center;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 62px;
+}
+
+#text-container {
+    padding-bottom: 30px;
 }
 
 /*sezione principale*/
 .white-back{
     display: flex;
     align-items: center;
-    height: 748px;
+    padding-top:80px;
+    padding-bottom: 90px;
 }
 
 #final-main-div {
@@ -144,7 +148,7 @@ a {
 .main-sect-text {
     width: 35%;
     margin-left: 55px;
-    margin-top: 27px;
+    margin-top: 33px;
 }
 
 /*regole sezione trovarsi */
@@ -152,7 +156,8 @@ a {
     display: flex;
     align-items: center;
     background-color: #D3D3D3;
-    height: 600px;
+    padding-top:80px;
+    padding-bottom: 90px;
 }
 
 /*regole sezione tecnologia */
@@ -160,13 +165,16 @@ a {
     display: flex;
     align-items: center;
     background-color: #D3D3D3;
-    height: 1400px;
+    padding-top:60px;
+    padding-bottom: 60px;
 }
 
 #tech-sect-container {
     margin: 0 auto;
     text-align: center;
     width: 75%;
+    padding-top:80px;
+    padding-bottom: 80px;
 }
 
 #stars-div {
