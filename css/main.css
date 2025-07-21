@@ -10,19 +10,6 @@ body {
     min-width: 1000px;
 }
 
-.button-style{
-    border-radius: 26px;
-    border:none;
-    background-color: white;
-    color: black;
-}
-
-#header-buttons-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 30px;
-}
-
 h1 {
     font-size: 50px;
     margin-bottom: 55px;
@@ -55,7 +42,6 @@ footer {
 }
 
 .button-blu{
-    /*rinomina*/
     color: white;
     background-color: #8FA2E5;
 }
@@ -75,10 +61,15 @@ footer {
     padding: 8px;
 }
 
-
 /*regole header*/
 #header-nav-back {
     background-color: #3160E0;
+}
+
+#header-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 #header-nav-container {
@@ -87,22 +78,6 @@ footer {
     align-items: center; 
     width: 70%;
     margin:0 auto;
-}
-
-
-/*formattazione link header */
-ul {
-    display: flex;
-    list-style-type: none;
-}
-
-li {
-    padding: 40px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 #header-img-back {
@@ -128,13 +103,39 @@ a {
     padding-bottom: 30px;
 }
 
-/* regole sezione principale*/
-.white-back{
+/* link header */
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* regole layout sezione principale*/
+.back-layout {
     display: flex;
     align-items: center;
     /*centralizza*/
     padding-top:80px;
     padding-bottom: 90px;
+}
+
+.gray-back {
+    background-color: #D3D3D3;
+}
+
+.back-large-leyout {
+    padding-top:60px;
+    padding-bottom: 60px;
 }
 
 #final-main-div {
@@ -144,12 +145,9 @@ a {
     font-size: 37px;
 }
 
-
 main a{
     margin: 0 auto;
 }
-
-
 
 /*regole sezione invito */
 .main-sect-container {
@@ -169,23 +167,11 @@ main a{
     margin-top: 33px;
 }
 
-/*regole sezione trovarsi */
 .gray-back {
-    display: flex;
-    align-items: center;
     background-color: #D3D3D3;
-    padding-top:80px;
-    padding-bottom: 90px;
 }
 
-/*regole sezione tecnologia */
-#gray-back-large {
-    display: flex;
-    align-items: center;
-    background-color: #D3D3D3;
-    padding-top:60px;
-    padding-bottom: 60px;
-}
+
 
 #tech-sect-container {
     margin: 0 auto;
