@@ -14,6 +14,8 @@ header {
     flex-direction: column;
 }
 
+
+
 #header-buttons-container {
     display: flex;
     margin-top: 50px;
@@ -159,6 +161,7 @@ a {
 
 main button {
     background-color: #3160E0;
+    justify-content: center;
 }
 
 /*regole sezione trovarsi */
@@ -208,12 +211,19 @@ main button {
     height: 600px;
 }
 
+h3 {
+    color: #718BD8;
+}
+
+footer span  {
+    color: white;
+}
+
 #large-col {
 
     /*debug*/
     height: 90%;
     width: 18%;
-    background-color: #F08180;
 }
 .regular-col {
 
@@ -241,4 +251,10 @@ main button {
     /*debug*/
     background-color: #23272A;
     height: 18%;
+}
+
+footer i {
+    color: white;
+    height: 50px;
+    width: 50px;
 }
