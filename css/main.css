@@ -8,6 +8,7 @@
 body {
     font-family:  Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     min-width: 1000px;
+    background-color: #3160E0;
 }
 
 h1 {
@@ -59,11 +60,6 @@ footer {
 
 .small-button {
     padding: 8px;
-}
-
-/*regole header*/
-#header-nav-back {
-    background-color: #3160E0;
 }
 
 #header-buttons-container {
@@ -118,15 +114,13 @@ a {
     text-decoration: none;
 }
 
-
-
-/* regole layout sezione principale*/
+/* regole layout-background sezione principale*/
 .back-layout {
     display: flex;
     align-items: center;
-    /*centralizza*/
     padding-top:80px;
     padding-bottom: 90px;
+    background-color: white;
 }
 
 .gray-back {
@@ -138,47 +132,41 @@ a {
     padding-bottom: 60px;
 }
 
-#final-main-div {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    font-size: 37px;
-}
-
 main a{
     margin: 0 auto;
 }
 
-/*regole sezione invito */
-.main-sect-container {
+/*regole contenitori sezione principale */
+.container{
+    width: 80%;
     display: flex;
     margin: 0 auto;
-    width: 80%;
 }
 
-.main-sect-img {
+#bigger-section-container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-section {
     width: 60%;
     margin-left:34px;
 }
 
-.main-sect-text {
+.text-section {
     width: 30%;
     margin-left: 141px;
     margin-top: 33px;
 }
 
-.gray-back {
-    background-color: #D3D3D3;
-}
-
-
-
-#tech-sect-container {
-    margin: 0 auto;
-    text-align: center;
-    width: 75%;
-    padding-top:80px;
-    padding-bottom: 80px;
+/*regole sezione "pronto a iniziare la tua avventura?"*/
+#final-main-div {
+    padding: 30px;
+    font-size: 33px;
 }
 
 #stars-div {
@@ -222,6 +210,7 @@ footer span  {
 #large-col {
     width: 18%;
 }
+
 .regular-col {
     display: flex;
     flex-direction: column;
