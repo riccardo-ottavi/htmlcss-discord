@@ -136,6 +136,22 @@ a {
     height: 748px;
 }
 
+#final-main-div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 37px;
+}
+
+#final-main-div button {
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+    padding: 15px;
+    border-radius: 30%;
+    background-color: #8FA2E5;
+}
+
 /*regole sezione invito */
 .main-sect-container {
     display: flex;
@@ -157,11 +173,6 @@ a {
     height: 100%;
     width: 35%;
     margin-left: 42px;
-}
-
-main button {
-    background-color: #3160E0;
-    justify-content: center;
 }
 
 /*regole sezione trovarsi */
@@ -247,7 +258,7 @@ footer span  {
 
 #register-section-container {
     display: flex;
-    align-items: end;
+    align-items: start; 
     /*debug*/
     background-color: #23272A;
     height: 18%;
@@ -281,5 +292,6 @@ footer img {
 #register-section-container button {
     background-color: #8FA2E5;
     color: white;
-    padding: 15px;
+    padding: 15px;      
+    border-radius: 30%;
 }
