@@ -36,7 +36,6 @@ main p {
 
 footer {
     background-color: #23272A;
-    height: 540px;
 }
 
 /*regole header*/
@@ -184,8 +183,10 @@ a {
     border-bottom: 3px solid #979B9E;
     display: flex;
     justify-content: center;
-    height: 90%;
+    padding-bottom: 40px;
     background-color: #23272A;
+    width: 80%;
+    margin: auto;
 }
 #footer-container {
     padding-top: 50px;
