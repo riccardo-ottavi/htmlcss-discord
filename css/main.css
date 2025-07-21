@@ -1,0 +1,164 @@
+/*regole generali*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+footer {
+
+    /*debug*/
+    background-color: #23272A;
+    height: 540px;
+}
+
+/*regole header*/
+#header-nav-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*debug*/
+    background-color: #ADD8E7;
+    height: 80px;
+}
+
+#header-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center; 
+    width: 70%;
+    margin:0 auto;
+    /*debug*/
+    background-color:#DAA71F;
+    height: 50%;
+}
+
+#header-img-back {
+    display: flex;
+    align-items: center;
+   /*debug*/
+   background-color:#00018B;
+   height: 500px;
+}
+
+#header-img-container {
+    width: 55%;
+    margin:0 auto; 
+    /*debug*/
+    background-color:#EF82ED;
+    height: 70%;
+}
+
+/*sezione principale*/
+.white-back{
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color:white;
+    height: 600px;
+}
+
+/*regole sezione invito */
+.main-sect-container {
+    display: flex;
+    margin: 0 auto;
+    /*debug*/
+    background-color:blueviolet;
+    height: 80%;
+    width: 75%;
+}
+
+.main-sect-img {
+
+    /*debug*/
+    background-color: #1E90FF;
+    height: 100%;
+    width: 60%;
+}
+
+.main-sect-text {
+    /*debug*/
+    background-color: #FFC0CA;
+    height: 100%;
+    width: 40%;
+}
+
+/*regole sezione trovarsi */
+.gray-back {
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color: #D3D3D3;
+    height: 600px;
+}
+
+/*regole sezione tecnologia */
+#gray-back-large {
+    display: flex;
+    align-items: center;
+    /*debug*/
+    background-color: #D3D3D3;
+    height: 760px;
+}
+
+#tech-sect-container {
+    margin: 0 auto;
+    /*debug*/
+    background-color: #218B21;
+    height: 90%;
+    width: 75%;
+}
+
+/*regole piè di pagina */
+#footer-columns-container {  
+    border-bottom: 3px solid #979B9E;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    padding-top: 5px;
+    /*debug*/
+    height: 90%;
+    background-color: #23272A;
+}
+#footer-container {
+
+    /*debug*/
+    height: 600px;
+}
+
+#large-col {
+
+    /*debug*/
+    height: 90%;
+    width: 18%;
+    background-color: #F08180;
+}
+.regular-col {
+
+    /*debug*/
+    height: 90%;
+    width: 14%;
+    background-color:#20B3AA;
+}
+
+/*regole sezione registrazione*/
+#register-section-content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    /*debug*/
+    height: 60px;
+    background-color: #7FFFD4;
+}
+
+#register-section-container {
+    display: flex;
+    align-items: end;
+    /*debug*/
+    background-color: #23272A;
+    height: 18%;
+}
