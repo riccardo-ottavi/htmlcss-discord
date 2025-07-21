@@ -5,6 +5,14 @@
     box-sizing: border-box;   
 }
 
+header {
+    background-image: url("../img/jumbo.png");
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
 footer {
 
     /*debug*/
@@ -17,8 +25,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /*debug*/
-    background-color: #ADD8E7;
     height: 80px;
 }
 
@@ -31,7 +37,6 @@ footer {
     width: 70%;
     margin:0 auto;
     /*debug*/
-    background-color:#DAA71F;
     height: 50%;
 }
 
@@ -39,16 +44,12 @@ footer {
     display: flex;
     align-items: center;
    /*debug*/
-   background-color:#00018B;
    height: 500px;
 }
 
 #header-img-container {
     width: 55%;
     margin:0 auto; 
-    /*debug*/
-    background-color:#EF82ED;
-    height: 70%;
 }
 
 /*sezione principale*/
