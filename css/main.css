@@ -206,9 +206,9 @@ main button {
     background-color: #23272A;
 }
 #footer-container {
-
+    padding-top: 50px;
     /*debug*/
-    height: 600px;
+    height: 120%;
 }
 
 h3 {
@@ -226,11 +226,12 @@ footer span  {
     width: 18%;
 }
 .regular-col {
-
+    display: flex;
+    flex-direction: column;
     /*debug*/
     height: 90%;
     width: 14%;
-    background-color:#20B3AA;
+    
 }
 
 /*regole sezione registrazione*/
@@ -242,7 +243,6 @@ footer span  {
     align-items: center;
     /*debug*/
     height: 60px;
-    background-color: #7FFFD4;
 }
 
 #register-section-container {
@@ -257,4 +257,29 @@ footer i {
     color: white;
     height: 50px;
     width: 50px;
+}
+
+footer h3 {
+    font-size: 32px;
+}
+
+footer h4 {
+    color: #718BD8;
+    font-size: 20px;
+}
+
+footer img {
+    height:15px;
+    width: 15px;
+}
+
+#register-section-container img {
+    height: 90px;
+    width: 90px;
+}
+
+#register-section-container button {
+    background-color: #8FA2E5;
+    color: white;
+    padding: 15px;
 }
