@@ -73,8 +73,9 @@ a {
 }
 
 #header-img-container {
-    width: 55%;
+    width: 40%;
     margin:0 auto; 
+    color: white;
 }
 
 /*sezione principale*/
