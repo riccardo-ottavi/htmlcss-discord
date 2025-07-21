@@ -42,6 +42,40 @@ footer {
     background-color: #23272A;
 }
 
+/*regole bottoni*/
+.button {
+    padding: 10px;
+    border-radius: 26px;
+    border: none;
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+
+.button-blu{
+    /*rinomina*/
+    color: white;
+    background-color: #8FA2E5;
+}
+
+.button-black{
+    background-color: black;
+    color: white;
+}
+
+.big-button {
+    padding: 15px;
+    border-top: 10px;
+    font-size: 20px;
+}
+
+.small-button {
+    padding: 8px;
+}
+
+
 /*regole header*/
 #header-nav-back {
     background-color: #3160E0;
@@ -55,27 +89,6 @@ footer {
     margin:0 auto;
 }
 
-#login-button {
-    padding: 8px;
-    border-radius: 26px;
-    border: none;
-}
-
-.download-button {
-    padding: 15px;
-    border-top: 10px;
-    font-size: 20px;
-    background-color: white;
-    color: black;
-}
-
-#browser-open-button {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    border-top: 10px;
-    font-size: 20px;
-}
 
 /*formattazione link header */
 ul {
@@ -115,7 +128,7 @@ a {
     padding-bottom: 30px;
 }
 
-/*sezione principale*/
+/* regole sezione principale*/
 .white-back{
     display: flex;
     align-items: center;
@@ -136,13 +149,7 @@ main a{
     margin: 0 auto;
 }
 
-.final-main-div{
-    /*rinomina*/
-    margin-top: 30px;
-    color: white;
-    padding: 15px;
-    background-color: #8FA2E5;
-}
+
 
 /*regole sezione invito */
 .main-sect-container {
