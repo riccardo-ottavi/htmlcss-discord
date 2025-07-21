@@ -26,6 +26,15 @@ h1 {
     margin-bottom: 55px;
 }
 
+h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
 footer {
 
     /*debug*/
@@ -120,7 +129,7 @@ a {
     align-items: center;
     /*debug*/
     background-color:white;
-    height: 600px;
+    height: 748px;
 }
 
 /*regole sezione invito */
@@ -128,24 +137,22 @@ a {
     display: flex;
     margin: 0 auto;
     /*debug*/
-    background-color:blueviolet;
     height: 80%;
-    width: 75%;
+    width: 68%;
 }
 
 .main-sect-img {
 
     /*debug*/
-    background-color: #1E90FF;
     height: 100%;
     width: 60%;
 }
 
 .main-sect-text {
     /*debug*/
-    background-color: #FFC0CA;
     height: 100%;
-    width: 40%;
+    width: 35%;
+    margin-left: 42px;
 }
 
 /*regole sezione trovarsi */
