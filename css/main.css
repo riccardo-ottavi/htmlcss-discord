@@ -242,7 +242,14 @@ footer span  {
     /*debug*/
     height: 90%;
     width: 14%;
-    
+}
+
+.regular-col * {
+    padding-top: 20px;
+}
+
+#large-col h3, i{
+    padding-bottom: 30px;
 }
 
 /*regole sezione registrazione*/
@@ -294,4 +301,8 @@ footer img {
     color: white;
     padding: 15px;      
     border-radius: 30%;
+}
+
+#social-div {
+    margin-top: 30px;
 }
