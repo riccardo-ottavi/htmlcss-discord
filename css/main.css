@@ -9,6 +9,23 @@ body {
     font-family:  Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 55px;
+}
+
 footer {
 
     /*debug*/
@@ -41,6 +58,22 @@ footer {
     padding: 8px;
     border-radius: 28%;
     border: 0px none;
+    border-top: 10px;
+    
+}
+
+#download-button {
+    padding: 10px;
+    border-top: 10px;
+    border-radius: 20%;
+}
+
+#browser-open-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-top: 10px;
+    border-radius: 20%;
 }
 
 /*formattazione link header */
@@ -76,6 +109,9 @@ a {
     width: 40%;
     margin:0 auto; 
     color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 160px;
 }
 
 /*sezione principale*/
