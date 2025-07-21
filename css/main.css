@@ -9,6 +9,7 @@ body {
     font-family:  Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
 #header-buttons-container {
     display: flex;
     margin-top: 50px;
@@ -49,14 +50,14 @@ footer {
 
 #login-button {
     padding: 8px;
-    border-radius: 28%;
+    border-radius: 26px;
     border: none;
 }
 
 #download-button {
     padding: 10px;
     border-top: 10px;
-    border-radius: 20%;
+    border-radius: 26px;
     font-size: 20px;
     
 
@@ -67,7 +68,7 @@ footer {
     color: white;
     padding: 10px;
     border-top: 10px;
-    border-radius: 20%;
+    border-radius: 26px;
     font-size: 20px;
 }
 
@@ -124,7 +125,7 @@ a {
     margin-top: 30px;
     color: white;
     padding: 15px;
-    border-radius: 30%;
+    border-radius: 26px;
     background-color: #8FA2E5;
 }
 
@@ -251,7 +252,7 @@ footer img {
     background-color: #8FA2E5;
     color: white;
     padding: 15px;      
-    border-radius: 30%;
+    border-radius: 26px;
 }
 
 #social-div {
