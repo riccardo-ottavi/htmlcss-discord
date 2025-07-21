@@ -157,6 +157,10 @@ a {
     margin-left: 42px;
 }
 
+main button {
+    background-color: #3160E0;
+}
+
 /*regole sezione trovarsi */
 .gray-back {
     display: flex;
@@ -172,15 +176,19 @@ a {
     align-items: center;
     /*debug*/
     background-color: #D3D3D3;
-    height: 760px;
+    height: 1400px;
 }
 
 #tech-sect-container {
     margin: 0 auto;
+    text-align: center;
     /*debug*/
-    background-color: #218B21;
     height: 90%;
     width: 75%;
+}
+
+#big-pic {
+    width: 100%;
 }
 
 /*regole piè di pagina */
