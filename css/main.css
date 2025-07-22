@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size: 49px;
+    font-size: 46px;
     margin-bottom: 25px;
 }
 
@@ -118,8 +118,8 @@ a {
 .back-layout {
     display: flex;
     align-items: center;
-    padding-top:80px;
-    padding-bottom: 90px;
+    padding-top:90px;
+    padding-bottom: 110px;
     background-color: white;
 }
 
